@@ -7,27 +7,40 @@ import Service from './component/Service';
 import Home from './component/Home';
 import Footer from './component/Footer';
 import Contact from './component/Contact';
+import "bootstrap/dist/js/bootstrap.min.js";
 class App extends Component{
   render(){
     return(
       <>
-    <nav className="navbar navbar-expand-lg navbar-light bg-dark">
-    <a class="navbar-brand" href="#">
+<nav class="navbar navbar-expand-lg navbar-light bg-dark">
+  <div class="container-fluid">
+  <a class="navbar-brand" href="/">
     <img src="https://thumbs.dreamstime.com/b/kl-logo-monogram-shield-shape-isolated-blue-colors-outline-design-template-179292944.jpg" width="30" height="30" class="d-inline-block align-top" alt="" />
-      <a className='navbar-brand text-light' href="/">KL AQUA TECH</a>
   </a>
-  <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-    <span className="navbar-toggler-icon"></span>
-  </button>
-  <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-    <div className="navbar-nav">
-      <a className="nav-item nav-link text-light" href="/">Home </a>
-      <a className="nav-item nav-link text-light" href="/products">Products</a>
-      <a className="nav-item nav-link text-light" href="/services">Services</a>
-      <a className="nav-item nav-link text-light" href="/contact">Contact</a>
-      <a className="nav-item nav-link text-light" href="/">About Us</a>
+    <a class="navbar-brand text-light" href="/">KL AQUA TECH</a>
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link text-light" aria-current="page" href="/">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light" href="/products">Products</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light" href="/services">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light" href="/contact">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light" href="/">About us</a>
+        </li>
+      </ul>
     </div>
-  </div>
+    </div>
 </nav>
 
 <Switch>

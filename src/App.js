@@ -8,10 +8,14 @@ import Home from './component/Home';
 import Footer from './component/Footer';
 import Contact from './component/Contact';
 import "bootstrap/dist/js/bootstrap.min.js";
+import { Helmet } from 'react-helmet';
 class App extends Component{
   render(){
     return(
       <>
+       <Helmet>
+        <title>KL AQUA TECH - Water and Air Conditioner</title>
+      </Helmet>
 <nav class="navbar navbar-expand-lg navbar-light bg-dark">
   <div class="container-fluid">
   <a class="navbar-brand" href="/">

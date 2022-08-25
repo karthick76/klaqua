@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import "bootstrap/dist/css/bootstrap.min.css";
-import { maxHeight } from '@mui/system';
 export default class Home extends Component {
   render() {
     return (

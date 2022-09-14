@@ -10,7 +10,7 @@ export default class contact extends Component {
 
   <img src="https://scontent.fmaa11-1.fna.fbcdn.net/v/t39.30808-6/275110830_1113404696171003_3518552725755398723_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=174925&_nc_ohc=D0UECQbezG0AX_g7YTT&_nc_ht=scontent.fmaa11-1.fna&oh=00_AT9MawF8H8xfBi8I6Ngk8vjMQeiVju-lL7Nk7e7zNilzEw&oe=630BDFDF" className="card-img-top" alt="..." />
   <div className="card-body bg-dark">
-    <h5 className="card-title text-light">Sathish David</h5>
+    <h5 className="card-title text-light">Sathish David S.</h5>
     <p className="card-text text-light">KL AQUA TECH</p>
     <p className="card-text text-light">Phone No: <b>9677779824</b></p>
     <p className="card-text text-light">E-Mail Id: <b>klaquatech@gmail.com</b></p>
